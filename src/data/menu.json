@@ -1,0 +1,246 @@
+{
+  "categories": [
+    {
+      "id": "ghanaian",
+      "name": "Ghanaian Classics",
+      "icon": "🍲",
+      "items": [
+        {
+          "id": "g1",
+          "name": "Banku & Okra Stew",
+          "description": "Smooth fermented corn and cassava dough served with rich okra stew and fried fish",
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=600&q=80",
+          "popular": true,
+          "extras": [
+            { "id": "e1", "name": "Extra Fish", "price": 15 },
+            { "id": "e2", "name": "Fried Plantain", "price": 10 },
+            { "id": "e3", "name": "Extra Stew", "price": 10 }
+          ],
+          "tags": ["spicy", "traditional"]
+        },
+        {
+          "id": "g2",
+          "name": "Konkonte & Groundnut Soup",
+          "description": "Dried cassava flour fufu paired with hearty peanut soup and tender meat",
+          "price": 60,
+          "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80",
+          "popular": false,
+          "extras": [
+            { "id": "e1", "name": "Extra Meat", "price": 20 },
+            { "id": "e2", "name": "Fried Plantain", "price": 10 }
+          ],
+          "tags": ["traditional"]
+        },
+        {
+          "id": "g3",
+          "name": "Boiled Yam & Palava Sauce",
+          "description": "Tender boiled yam with kontomire (cocoyam leaves) palava sauce and smoked fish",
+          "price": 60,
+          "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80",
+          "popular": true,
+          "extras": [
+            { "id": "e1", "name": "Extra Yam", "price": 15 },
+            { "id": "e3", "name": "Fried Egg", "price": 8 }
+          ],
+          "tags": ["vegetarian-friendly", "traditional"]
+        },
+        {
+          "id": "g4",
+          "name": "Jollof Rice & Chicken",
+          "description": "Fragrant tomato-based jollof rice slow-cooked to perfection with grilled chicken",
+          "price": 70,
+          "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=80",
+          "popular": true,
+          "extras": [
+            { "id": "e1", "name": "Extra Chicken", "price": 25 },
+            { "id": "e2", "name": "Fried Plantain", "price": 10 },
+            { "id": "e4", "name": "Coleslaw", "price": 10 }
+          ],
+          "tags": ["popular", "spicy"]
+        },
+        {
+          "id": "g5",
+          "name": "Apim & Garden Egg Stew",
+          "description": "Wholesome apim (fermented corn balls) served with rich garden egg stew",
+          "price": 55,
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&q=80",
+          "popular": false,
+          "extras": [
+            { "id": "e3", "name": "Extra Stew", "price": 10 }
+          ],
+          "tags": ["traditional", "vegetarian-friendly"]
+        }
+      ]
+    },
+    {
+      "id": "grills",
+      "name": "Grills & Fries",
+      "icon": "🍗",
+      "items": [
+        {
+          "id": "gr1",
+          "name": "Crispy Fried Chicken",
+          "description": "Hand-breaded, double-fried chicken pieces with our secret spice blend — golden, crunchy, juicy",
+          "price": 80,
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=600&q=80",
+          "popular": true,
+          "extras": [
+            { "id": "e1", "name": "Extra Piece", "price": 25 },
+            { "id": "e2", "name": "BBQ Sauce", "price": 5 },
+            { "id": "e3", "name": "Yam Chips", "price": 20 }
+          ],
+          "tags": ["popular", "bestseller"]
+        },
+        {
+          "id": "gr2",
+          "name": "Yam Chips",
+          "description": "Thick-cut yam chips fried to a golden crisp, seasoned with house spice blend",
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1551782450-17144efb9c50?w=600&q=80",
+          "popular": false,
+          "extras": [
+            { "id": "e2", "name": "Pepper Sauce", "price": 5 },
+            { "id": "e3", "name": "Fried Egg", "price": 8 }
+          ],
+          "tags": ["snack", "vegetarian"]
+        },
+        {
+          "id": "gr3",
+          "name": "Grilled Tilapia",
+          "description": "Whole tilapia marinated in spices and grilled over open flame with pepper sauce",
+          "price": 90,
+          "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
+          "popular": true,
+          "extras": [
+            { "id": "e1", "name": "Extra Pepper", "price": 5 },
+            { "id": "e2", "name": "Banku (small)", "price": 20 },
+            { "id": "e3", "name": "Fried Plantain", "price": 10 }
+          ],
+          "tags": ["seafood", "popular"]
+        },
+        {
+          "id": "gr4",
+          "name": "Wings & Fries Combo",
+          "description": "Spiced chicken wings with golden French fries and choice of dipping sauce",
+          "price": 75,
+          "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80",
+          "popular": false,
+          "extras": [
+            { "id": "e1", "name": "Extra Wings (3)", "price": 20 },
+            { "id": "e2", "name": "BBQ Sauce", "price": 5 },
+            { "id": "e3", "name": "Ranch Sauce", "price": 5 }
+          ],
+          "tags": ["combo", "popular"]
+        }
+      ]
+    },
+    {
+      "id": "noodles",
+      "name": "Noodles & Rice",
+      "icon": "🍜",
+      "items": [
+        {
+          "id": "n1",
+          "name": "Indomie Chicken Special",
+          "description": "Stir-fried Indomie noodles with tender chicken, vegetables and signature sauce",
+          "price": 60,
+          "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&q=80",
+          "popular": true,
+          "extras": [
+            { "id": "e1", "name": "Extra Chicken", "price": 15 },
+            { "id": "e2", "name": "Fried Egg", "price": 8 },
+            { "id": "e3", "name": "Extra Noodles", "price": 15 }
+          ],
+          "tags": ["popular", "spicy"]
+        },
+        {
+          "id": "n2",
+          "name": "Mie Goreng",
+          "description": "Indonesian-style fried noodles with vegetables, egg and our house special sauce",
+          "price": 65,
+          "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=80",
+          "popular": false,
+          "extras": [
+            { "id": "e2", "name": "Fried Egg", "price": 8 },
+            { "id": "e1", "name": "Chicken Strips", "price": 20 }
+          ],
+          "tags": ["asian-fusion"]
+        },
+        {
+          "id": "n3",
+          "name": "Fried Rice Special",
+          "description": "Wok-tossed fried rice with mixed vegetables, egg and choice of protein",
+          "price": 70,
+          "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600&q=80",
+          "popular": false,
+          "extras": [
+            { "id": "e1", "name": "Extra Protein", "price": 20 },
+            { "id": "e2", "name": "Fried Plantain", "price": 10 }
+          ],
+          "tags": ["popular"]
+        }
+      ]
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "icon": "🥤",
+      "items": [
+        {
+          "id": "b1",
+          "name": "Eagle Black Beer",
+          "description": "Chilled local craft lager, smooth and refreshing. Comes with the bottle.",
+          "price": 25,
+          "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=600&q=80",
+          "popular": false,
+          "extras": [],
+          "tags": ["alcohol", "cold"]
+        },
+        {
+          "id": "b2",
+          "name": "Fresh Bissap Juice",
+          "description": "Hibiscus flower drink, naturally sweet and tangy, served chilled",
+          "price": 20,
+          "image": "https://images.unsplash.com/photo-1638176066666-ffb2f013c7dd?w=600&q=80",
+          "popular": true,
+          "extras": [
+            { "id": "e1", "name": "Extra Sugar", "price": 0 },
+            { "id": "e2", "name": "Ginger Shot", "price": 5 }
+          ],
+          "tags": ["non-alcoholic", "cold", "local"]
+        },
+        {
+          "id": "b3",
+          "name": "Sobolo (Zobo)",
+          "description": "Traditional West African hibiscus drink with spices and pineapple. Chilled.",
+          "price": 15,
+          "image": "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=600&q=80",
+          "popular": false,
+          "extras": [],
+          "tags": ["non-alcoholic", "local", "cold"]
+        },
+        {
+          "id": "b4",
+          "name": "Soft Drinks",
+          "description": "Coca-Cola, Fanta, Sprite, Malta — your choice of chilled bottled drinks",
+          "price": 10,
+          "image": "https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?w=600&q=80",
+          "popular": false,
+          "extras": [],
+          "tags": ["non-alcoholic", "cold"]
+        },
+        {
+          "id": "b5",
+          "name": "Water (Still)",
+          "description": "Chilled bottled mineral water",
+          "price": 5,
+          "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&q=80",
+          "popular": false,
+          "extras": [],
+          "tags": ["non-alcoholic"]
+        }
+      ]
+    }
+  ]
+}
